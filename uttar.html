@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task_1</title>
+    <link rel="stylesheet" href="task_style.css">
+</head>
+<body>
+    <div class="frontpage">
+        <h1><img class="logo" src="formlogo.png" alt="logo" width="30px" >    Volunteer for Animal Adoption</h1>
+        <!--<p>Pets are life-changing. They greet us like heroes when we walk in the door, comfort us when we are sad, 
+            and  love us unconditionally. Dogs and cats are the most popular pets in the United States,but these wonderful,
+              vulnerable animals can easily live for over a decade and are dependent on us for all their needs.
+               So committing to caring for a pet as a cherished, not captive,companion is a big decision.
+              </p>-->
+              
+    </div>
+    <div class="bottompart">
+        
+        <div class="imgpart">
+            <img src="animals.jpg" class="heroimg" alt="">
+        </div>
+        <div class="heading">
+            <form action="">
+            <h1 > Street Animal Adoption Form </h1>
+            <h2>Information</h2>
+            <p><h4>Name: <input type="text" name="name" required placeholder="your name">
+            </h4></p>
+            <p><h4>Contact Number: <input type="number" name="contnumber" id="contnumber" placeholder="Contact"></h4></p>
+            <p><h4>Email: <input type="email" name="email" id="email" placeholder="your mail id" required>
+            </h4></p>
+            <p><h4>Address: <textarea name="address" id="address" cols="30" rows="5" placeholder="your Address" required></textarea>
+            </h4></p>
+            <div class="Payment"></div>
+            <h2>Contribution</h2>
+            <p>A little contribution for the benefits of Street Animals</p>
+            <p>Card Type:
+                 <select name="card_type" id="card_type"  >
+            <option value="">---Select a card type---</option>
+            <option value="visa">Visa</option>
+            <option value="rupay">Rupay</option>
+            <option value="mastercard">MasterCard</option>
+                </select>
+            </p>
+            <p>
+                Card Number: <input type="number" name="Card_number" id="Card_number" >
+            </p>
+                <p>
+                    Expiration Date: <input type="date" name="exp_date" id="exp_date" >
+                </p>
+            <p>CVV: <input type="password" name="cvv" id="cvv" ></p>
+                    <input type="checkbox" class="agree" checked>
+                        <label for="agree" class="agree">I want to receive promotion mails and notification regarding the program</label>
+
+    
+                        <p><label class="privacy_policy">By clicking the submit button, you agree to our <span>Terms & Conditions</span> and <span>Privacy Policy</span>.</label></p>
+                                <button class="submitbtn">Submit OR Pay</button> 
+        </form>
+  </div>
+</div>
+</div>
+    
+</body>
+</html>
